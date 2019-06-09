@@ -10,7 +10,7 @@ env:
 # install:
 # - pip install --user awscli
 script:
-  - sh script/install.sh
+  - sh scripts/install.sh
 # - set -o pipefail
 # - if [ "$TRAVIS_EVENT_TYPE" == "cron" ]; then
 #     gem install travis-cron_tools;
